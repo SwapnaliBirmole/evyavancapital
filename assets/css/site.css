@@ -36,7 +36,44 @@ background-color: #ffecd6 !important;
     letter-spacing: 0.5px;
     font-size: 16px;
 }
+@media (max-width: 768px) {
+     .slick-image-slide img {
+        height: auto !important;
+        width: 100% !important;}
+            .slick-image-slide, .slide-wrap {
+        height: auto;
+    }
+}
 
+@media (max-width: 480px) {
+  .slick-image-slide img {
+        height: auto !important;
+        width: 100% !important;}
+            .slick-image-slide, .slide-wrap {
+        height: auto;
+    }
+        .slick-image-slide, .slide-wrap {
+        height: auto;
+    }
+
+.wpsisac-slick-slider.design-3 .slick-image-slide .slide-wrap .slider-content {
+    padding: 0!important;
+
+}
+  .slider-detail {
+    top: 10px!important;
+    left: 10px!important;
+    font-weight: 700;
+    font-size: 20px!important;
+    /* filter: none; */
+    position: absolute;
+    line-height: 20px!important;
+}
+.ls-wp-container, .ls-slide{
+height: 95px!important;
+}
+
+}
 .datedAside .span1, .datedAside .span2, .datedAside .span3 {
     background: #e8e8e8;
     padding: 5px 10px;
@@ -563,7 +600,7 @@ border: 4px solid #b8292f;
         top: 111.197px;
         left: 123.444px;
         font-weight: 700;
-        font-size: 47.4026px !important;
+        font-size: 47.4026px;
         color: #000 !important;
         font-family: raleway;
         margin: 0px;
@@ -905,9 +942,9 @@ height: 100vh !important;*/
         .main-title {
           font-size: 32px;
         }
-        /*.qode-accordion-holder .qode-accordion-content {
-    padding: 0;
-}*/
+           .qode-accordion-holder .qode-accordion-content {
+        padding: 20px !important;
+    }
         .left-border {
           padding: 0 10px;
           text-align: left;
