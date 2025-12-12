@@ -224,64 +224,7 @@
     </script>
     
  
-   <style>
-    .qode-accordion-holder h4 {
-    margin: 0;
-    padding: 15px 20px;
-    background-color: #faa74a;
-    border-bottom: 1px solid #ddd;
-    cursor: pointer;
-    position: relative;
-    font-size: 18px;
-}
-
-      .qode-accordion-holder .qode-title-holder {
-        background-color: #ffffff;
-        margin: 0 0 3px;
-      }
-       .qode-accordion-holder .qode-title-holder:hover{
-         background-color: #faa74a;
-       }
-      .qode-accordion-holder
-        .qode-title-holder
-        .qode-tab-title {
-        height: 56px;
-      }
-.qode-accordion-content {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.35s ease;
-    padding: 0;
-}
-.qode-accordion-holder .qode-accordion-content{padding: 0!important;}
-.qode-accordion-content-inner {
-    padding: 15px 20px;
-    font-size: 16px;
-}
-
-.qode-accordion-mark {
-    position: absolute;
-    right: 20px;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-.icon_plus, .icon_minus-06 {
-    font-size: 21px;
-    font-weight: bold;
-    display: inline-block;
-}
-.qode-accordion-holder .qode-title-holder .qode-accordion-mark {
-    position: absolute;
-    top: 50%!important;}
-.icon_minus-06 { display: none; }
-
-/* Active State */
-.qode-accordion-holder .qode-title-holder.active{
-         background-color: #faa74a; color: #fff;}
-.qode-title-holder.active > .qode-accordion-mark > .qode-accordion-mark-icon .icon_plus { display: none; }
-.qode-title-holder.active > .qode-accordion-mark > .qode-accordion-mark-icon .icon_minus-06 { display: block!important; opacity: 1; }
-   </style>
+   
 
   </head>
 
@@ -309,7 +252,7 @@
                   </div>
                   <div class="logo_wrapper">
                     <div class="q_logo">
-                      <a itemprop="url" href="https://www.evyavancapital.com/">
+                      <a itemprop="url" href="index.html">
                         <img
                           itemprop="image"
                           class="normal"
@@ -1188,27 +1131,7 @@ Team Evyavan consists of individuals who have significant experience in Debt Adv
       lazySizesConfig.loadMode = 1;
     </script>
 
-    <script type="text/javascript">
-      lazySizes.init();
-    </script>
-
-   <script>
-document.querySelectorAll(".qode-title-holder").forEach((header) => {
-    header.addEventListener("click", function () {
-
-        const content = this.nextElementSibling;
-        const isOpen = this.classList.contains("active");
-
-        document.querySelectorAll(".qode-title-holder").forEach(h => h.classList.remove("active"));
-        document.querySelectorAll(".qode-accordion-content").forEach(c => c.style.maxHeight = null);
-
-        if (!isOpen) {
-            this.classList.add("active");
-            content.style.maxHeight = content.scrollHeight + "px";
-        }
-    });
-});
-</script>
+    
 
     
     <script type="text/javascript">

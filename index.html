@@ -152,7 +152,7 @@
       type="text/javascript"
       src="assets/Js/jquery.js"
     ></script>
-
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
   
    
     <link
@@ -248,7 +248,7 @@
                   </div>
                   <div class="logo_wrapper">
                     <div class="q_logo">
-                      <a itemprop="url" href="https://www.evyavancapital.com/">
+                      <a itemprop="url" href="index.html">
                         <img
                           itemprop="image"
                           class="normal"
@@ -2044,7 +2044,24 @@
     </script> -->
 
    
+<script>
+  jQuery(document).ready(function($) {
+    var slider = $("#wpsisac-slick-slider-1");
+    var conf = $(".wpsisac-slider-conf").data("conf");
 
+    slider.slick({
+        dots: conf.dots === "true",
+        arrows: conf.arrows === "true",
+        autoplay: conf.autoplay === "true",
+        autoplaySpeed: parseInt(conf.autoplay_interval) || 3000,
+        fade: conf.fade === "true",
+        speed: parseInt(conf.speed) || 300,
+        rtl: conf.rtl === "true",
+        infinite: true,
+        lazyLoad: "ondemand",
+    });
+});
+</script>
     
     <script type="text/javascript">
       /* <![CDATA[ */
