@@ -13,6 +13,22 @@ background-color: #ffecd6 !important;
     background-repeat: no-repeat;
     background-size: cover;
  }
+ .rightPattleBg{
+    background: #e8e8e8 url(../images/pattel-right-small-m-1.png) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+  }
+ .leftPattleBg{
+    background: #e8e8e8 url(../images/left-pattel.png) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+  }
+.aboutLeftBg{background: #e8e8e8 url(../images/about-bg-gray-left-ptl-m-1.jpg) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;}
 .pb50{padding-bottom: 50px !important;}
  p, li {
     padding: 0 0 10px;
