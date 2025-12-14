@@ -36,6 +36,10 @@ background-color: #ffecd6 !important;
     letter-spacing: 0.5px;
     font-size: 16px;
 }
+@media (min-width: 769px) {
+  .slider-detail {font-size: 47.4026px !important;}
+
+}
 @media (max-width: 768px) {
      .slick-image-slide img {
         height: auto !important;
@@ -63,7 +67,7 @@ background-color: #ffecd6 !important;
   .slider-detail {
     top: 10px!important;
     left: 10px!important;
-    font-weight: 700;
+    font-weight: 900!important;
     font-size: 20px!important;
     /* filter: none; */
     position: absolute;
