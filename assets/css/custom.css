@@ -1,11 +1,30 @@
+.vc_column_container {
+    padding-left: 0;
+    padding-right: 0;
+}
+.vc_custom_1569662217360 {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+.vc_custom_1572606336676 {
+    background-color: #f4f4f4 !important;
+}
+.separator.small {
+    background-color: #303030;
+    height: 2px;
+    position: relative;
+    width: 22px;
+    display: block;
+    margin: 10px auto 20px;
+}
 .vc_custom_1570452558272 {
-        background-image: url(https://www.evyavancapital.com/wp-content/uploads/2019/10/home-bg-gray-m.jpg?id=1009) !important;
+        background-image: url(../images/home-bg-gray-m.jpg) !important;
         background-position: center !important;
         background-repeat: no-repeat !important;
         background-size: cover !important;
       }
       .vc_custom_1570620386466 {
-        background-image: url(https://www.evyavancapital.com/wp-content/uploads/2019/10/home-bg-gray-m.jpg?id=1009) !important;
+        background-image: url(../images/home-bg-gray-m.jpg) !important;
         background-position: center !important;
         background-repeat: no-repeat !important;
         background-size: cover !important;
@@ -43,7 +62,7 @@
       .vc_custom_1570782886659 {
         padding-right: 30px !important;
         padding-left: 30px !important;
-        background-image: url(https://www.evyavancapital.com/wp-content/uploads/2019/10/credit-fund-mob-new-bk-min.jpg?id=665) !important;
+        background-image: url(../images/credit-fund-mob-new-bk-min.jpg) !important;
         background-position: center !important;
         background-repeat: no-repeat !important;
         background-size: cover !important;
@@ -51,7 +70,7 @@
       .vc_custom_1570205824370 {
         padding-right: 30px !important;
         padding-left: 30px !important;
-        background-image: url(https://www.evyavancapital.com/wp-content/uploads/2019/09/advisory-home-right-1.jpg?id=538) !important;
+        background-image: url(../images/advisory-home-right-1.jpg) !important;
         background-position: center !important;
         background-repeat: no-repeat !important;
         background-size: cover !important;
