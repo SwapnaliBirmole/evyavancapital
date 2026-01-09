@@ -326,7 +326,7 @@
 				}
 				
 					.footer_inner{
-			background-image:url(https://www.evyavancapital.com/wp-content/uploads/2019/09/footer-background-min.jpg);
+			background-image:url(../images/footer-background-min.jpg);
 			background-position: 0 0;
 			}
 			.footer_top_holder,.footer_bottom_holder, .content footer .container {
@@ -371,7 +371,7 @@
 			}
 		
 					.footer_top_holder{
-			background: url(https://www.evyavancapital.com/wp-content/uploads/2019/09/footer-background-min.jpg) no-repeat;
+			background: url(../images/footer-background-min.jpg) no-repeat;
 			background-size: cover;
 			}
 		

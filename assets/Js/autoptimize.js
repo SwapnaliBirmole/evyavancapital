@@ -4897,7 +4897,7 @@ function(a, b, c) {
     a.migrateVersion = "1.4.1";
     var f = {};
     a.migrateWarnings = [],
-    b.console && b.console.log && b.console.log("JQMIGRATE: Migrate is installed" + (a.migrateMute ? "" : " with logging active") + ", version " + a.migrateVersion),
+    // b.console && b.console.log && b.console.log("JQMIGRATE: Migrate is installed" + (a.migrateMute ? "" : " with logging active") + ", version " + a.migrateVersion),
     a.migrateTrace === c && (a.migrateTrace = !0),
     a.migrateReset = function() {
         f = {},
